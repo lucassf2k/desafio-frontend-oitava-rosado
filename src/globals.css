@@ -1,7 +1,7 @@
 :root {
   font-size: 62.5%;
 
-  --primaryColor: #08539B;
+  --primaryColor: #0F8982;
   --secondaryColor: #0F8982;
   --lightGreenColor: #089B93;
   --buttonLinkFG: #0A7275;
@@ -27,6 +27,7 @@
   -webkit-box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
 }
 
 body, #root {
