@@ -1,10 +1,6 @@
 .authFormContent {
-  padding: 10.2rem 9.17rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
-}
-
-@media (max-width: 640px) {
-  .authFormContent {
-    padding: 10.2rem 1rem;
-  }
 }
