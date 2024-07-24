@@ -1,0 +1,15 @@
+.authFormButton {
+  width: 100%;
+  padding: 1.8rem 0;
+  margin-top: 3.6rem;
+ margin-bottom: 1.6rem;
+  background-color: var(--primaryColor);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--textPrimaryButtonColor);
+  transition: background 0.2s ease-in;
+}
+
+.authFormButton:hover {
+  background: var(--lightGreenColor);
+}
