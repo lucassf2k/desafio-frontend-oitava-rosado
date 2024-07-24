@@ -1,0 +1,24 @@
+.verticalBanner {
+  background-color: var(--primaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.verticalBanner img {
+  width: 39.7rem;
+  max-width: 39.7rem;
+}
+
+@media (max-width: 1058px) {
+  .verticalBanner img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 900px) {
+  .verticalBanner {
+    display: none;
+  }
+}
