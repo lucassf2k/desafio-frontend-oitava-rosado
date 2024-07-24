@@ -1,0 +1,13 @@
+.authContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+}
+
+@media (max-width: 900px) {
+  .authContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
