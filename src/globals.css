@@ -8,7 +8,8 @@
   --buttonSecondaryBG: #FFFFFF;
   --primaryBG: #FFFFFF;
   --white: #FFFFFF; 
-  --red: #EF4444;
+  --fgErrorColor: #EF4444;
+  --messageAlertColor: #DC0046;
   --textRegisterInputTitleColor: #000000;
   --textInputColor: #4E4E4E;
   --textPrimaryColor: #101828;
