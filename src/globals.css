@@ -1,0 +1,39 @@
+:root {
+  font-size: 62.5%;
+
+  --primaryColor: #08539B;
+  --secondaryColor: #0F8982;
+  --lightGreenColor: #089B93;
+  --buttonLinkFG: #0A7275;
+  --buttonSecondaryBG: #FFFFFF;
+  --primaryBG: #FFFFFF;
+  --white: #FFFFFF; 
+  --red: #EF4444;
+  --textRegisterInputTitleColor: #000000;
+  --textInputColor: #4E4E4E;
+  --textPrimaryColor: #101828;
+  --textTertiaryColor: #475467;
+  --textFooterColor: #3C465A;
+  --textTitleInput: #747C80;
+  --subtitleColor: #535E63;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body, #root {
+  font-size: 1.6rem;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
