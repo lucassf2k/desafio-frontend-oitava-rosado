@@ -1,0 +1,12 @@
+.authFormContent h1 {
+  color: var(--primaryColor);
+  font-size: 3.2rem;
+  margin-bottom: 1.6rem;
+  width: 43rem;
+}
+
+.authFormContent p {
+  color: var(--subtitleColor);
+  max-width: 40.8rem;
+  margin-bottom: 4.2rem;
+}
