@@ -8,6 +8,7 @@
   --buttonSecondaryBG: #FFFFFF;
   --primaryBG: #FFFFFF;
   --white: #FFFFFF; 
+  --textPrimaryButtonColor: #F3F6F7;
   --fgErrorColor: #EF4444;
   --messageAlertColor: #DC0046;
   --textRegisterInputTitleColor: #000000;
@@ -15,7 +16,7 @@
   --textPrimaryColor: #101828;
   --textTertiaryColor: #475467;
   --textFooterColor: #3C465A;
-  --textTitleInput: #747C80;
+  --textTitleInputColor: #747C80;
   --subtitleColor: #535E63;
 }
 
@@ -37,5 +38,16 @@ body, #root {
 button {
   cursor: pointer;
   border: none;
+  border-radius: 0.8rem;
 }
 
+input {
+  border: none;
+  outline: none;
+  border: 1px solid var(--lightGreenColor);
+  border-radius: 0.8rem;
+}
+
+input:focus {
+  border: 4px solid var(--lightGreenColor);
+}
