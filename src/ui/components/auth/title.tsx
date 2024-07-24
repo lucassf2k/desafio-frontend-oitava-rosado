@@ -1,9 +1,9 @@
-export type FormTitleProps = {
+export type TitleProps = {
   title: string;
   subtitle: string;
 };
 
-export function FormTitle({ title, subtitle }: FormTitleProps) {
+export function Title({ title, subtitle }: TitleProps) {
   return (
     <>
       <h1>{title}</h1>
