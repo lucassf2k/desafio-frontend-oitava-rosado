@@ -1,0 +1,18 @@
+.authFormField {
+  display: flex;
+  flex-direction: column;
+}
+
+.authFormField label {
+  color: var(--textTitleInputColor);
+  margin-bottom: 1rem;
+}
+
+.authFormField input {
+  padding: 1.6rem 1.2rem;
+  color: var(--textTitleInputColor);
+}
+
+.authFormField + .authFormField {
+  margin-top: 2.8rem;
+}
