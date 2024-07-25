@@ -6,7 +6,7 @@
 
 .linkToCancelContainer a {
   text-decoration: none;
-  color: var(--fgErrorColor);
+  color: var(--textPrimaryColor);
   font-family: 'Inter', sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
