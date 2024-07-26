@@ -1,0 +1,142 @@
+.homeContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.sidebar {
+  height: 100vh;
+  border-right: 1px solid #E9ECEF;
+  width: 34.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoContainer {
+  padding: 6.2rem 0;
+  border-bottom: 1px solid #E9ECEF;
+  width: 100%;
+  text-align: center;
+}
+
+.logoContainer img {
+  width: 17.0rem;
+}
+
+.navigationContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.navigationHeader {
+  color: var(--primaryColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 2rem;
+  font-weight: 600;
+  background-color: #F9FAFB;
+  border-right: 3px solid #A7E3D7;
+}
+
+.navigationHeader p {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+
+.navigationHeader p img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.4rem;
+}
+
+.navigationHeader span {
+  font-size: 1rem;
+}
+
+.navigationContainer a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #343A40;
+  padding: 1.8rem 4.8rem;
+}
+
+.homeContainer main {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 8rem;
+  background-color: var(--lightGreenColor);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 3rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+  gap: 4rem;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon span {
+  background-color: var(--messageAlertColor);
+  color: var(--white);
+  width: 30px;
+  height: 20px;
+  border-radius: 5px;
+  position: absolute;
+  right: -20px;
+  top: -10px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.homeContent {
+  width: 100%;
+  height: calc(100% - 8rem - 4rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeContent img {
+  width: 12rem;
+  height: 12rem;
+  margin-bottom: 0.8rem;
+}
+
+.homeContent h1 {
+  font-weight: 400;
+  color: #212529;
+  margin-bottom: 0.8rem;
+}
+
+.homeContent p {
+  font-size: 1.8rem;
+  color: #495057;
+}
+
+.homeContainer main footer {
+  text-align: end;
+}
+
+.homeContainer main footer a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: 'Nunito', sans-serif;
+  margin-left: 2.2rem;
+  padding-right: 3rem;
+}
