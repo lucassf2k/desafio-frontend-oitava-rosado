@@ -12,8 +12,8 @@ export function InputPassword(props: InputPasswordProps) {
   const [passwordType, setPasswordType] = useState('password');
 
   const handleTogglePasswordVisibility = () => {
-    if (passwordType === 'password') setPasswordType('text');
-    if (passwordType === 'text') setPasswordType('password');
+    if (passwordType === 'password') return setPasswordType('text');
+    if (passwordType === 'text') return setPasswordType('password');
   };
 
   return (

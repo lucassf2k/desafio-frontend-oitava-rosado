@@ -9,14 +9,7 @@ export function AuthBase({ children }: AuthBaseProps) {
     <Auth.Container>
       <Auth.VerticalBanner />
       <Auth.FormContainer>
-        <Auth.FormContent>
-          <Auth.FormTitle
-            title="Acessar conta"
-            subtitle="Bem-vindo(a)! Por favor, digite suas credenciais para ter acesso ao
-        sistema."
-          />
-          {children}
-        </Auth.FormContent>
+        <Auth.FormContent>{children}</Auth.FormContent>
       </Auth.FormContainer>
     </Auth.Container>
   );
