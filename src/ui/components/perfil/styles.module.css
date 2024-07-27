@@ -1,0 +1,19 @@
+.perfilContent {
+  display: flex;
+  align-items: center;
+  max-width: 30rem;
+  text-align: end;
+}
+
+.perfilContent p {
+  font-family: 'Nunito', sans-serif;
+  max-width: 17rem;
+  color: var(--white);
+}
+
+.perfilContent img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-left: 2rem;
+}
