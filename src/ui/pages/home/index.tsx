@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Perfil } from '../../components/perfil';
 import logoSecondaryIMG from '../../assets/images/logo-secondary.png';
 import logoTertiaryIMG from '../../assets/images/logo-tertiary.png';
-import notificationIcon from '../../assets/icons/notification.svg';
 import productsIcon from '../../assets/icons/products.svg';
 import cubeIcon from '../../assets/icons/cubo.svg';
 import S from './styles.module.css';
@@ -30,17 +28,10 @@ export function Home() {
         </nav>
       </section>
       <main>
-        <header className={S.header}>
-          <div className={S.icons}>
-            <div className={S.icon}>
-              <img src={notificationIcon} alt="Íconde de notificação" />
-              <span>99+</span>
-            </div>
-            <img src={productsIcon} alt="Íconde de produtos" />
-          </div>
-          <Header.Separator />
-          <Perfil />
-        </header>
+        <Header.Main>
+          <Header.Notification text="99+" />
+          <Header.Icon src={productsIcon} alt="Ícone de produtos" />
+        </Header.Main>
         <div className={S.homeContent}>
           <img src={logoTertiaryIMG} alt="Apenas o logo da Oitava Rosado" />
           <h1>
