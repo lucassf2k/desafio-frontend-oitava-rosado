@@ -1,0 +1,16 @@
+.icon {
+  position: relative;
+}
+
+.icon span {
+  background-color: var(--messageAlertColor);
+  color: var(--white);
+  width: 30px;
+  height: 20px;
+  border-radius: 5px;
+  position: absolute;
+  right: -20px;
+  top: -10px;
+  font-size: 12px;
+  text-align: center;
+}
