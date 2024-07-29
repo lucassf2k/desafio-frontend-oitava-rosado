@@ -1,0 +1,28 @@
+.tableList {
+  width: 100%;
+  border: none;
+  margin-top: 4rem;
+  overflow-y: scroll;
+  max-height: 480px;
+}
+
+.tableList::-webkit-scrollbar {
+  width: 0;
+}
+
+.tableList th, td {
+  color: var(--textTertiaryColor);
+  font-weight: 400;
+  text-align: left;
+  padding: 1.4rem;
+}
+
+.tableList th {
+  font-size: 1.2rem;
+}
+
+.tableList td {
+  font-size: 1.4rem;
+  border-top: 1px solid #EAECF0;
+  border-bottom: 1px solid #EAECF0;
+}

@@ -22,9 +22,9 @@ export function Home() {
             <span>Alterar</span>
           </div>
           <Link to="/">Usuários</Link>
-          <Link to="/">Médicos</Link>
-          <Link to="/">Pacientes</Link>
-          <Link to="/">Agendamentos</Link>
+          <Link to="/doctors">Médicos</Link>
+          <Link to="/patients">Pacientes</Link>
+          <Link to="/appointments">Agendamentos</Link>
         </nav>
       </section>
       <main>

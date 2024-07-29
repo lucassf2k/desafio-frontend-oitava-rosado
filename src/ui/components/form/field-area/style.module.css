@@ -1,0 +1,24 @@
+.fieldArea {
+  position: relative;
+}
+
+.fieldArea label {
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 600;
+  top: -5px;
+  left: 16px;
+  background: var(--white);
+  padding: 0 0.4rem;
+}
+
+.fieldArea textarea {
+  width: 35rem;
+  padding: 1.8rem;
+  border: 1px solid #D0D5DD;
+}
+
+.fieldArea textarea {
+  width: 100%;
+  border-radius: 0.8rem;
+}

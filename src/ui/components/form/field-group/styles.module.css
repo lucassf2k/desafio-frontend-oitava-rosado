@@ -1,0 +1,10 @@
+.fieldGroup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+.fieldGroup + .fieldGroup {
+  margin-top: 1.4rem;
+}

@@ -1,7 +1,20 @@
+import { useSelector } from 'react-redux';
 import { Auth } from '../components/auth';
 import { AuthBase } from '../components/auth/auth-base';
+import { useAuth } from '../../infra/redux/slice-auth';
+import { useNavigate } from 'react-router';
+import { useEffect, useState } from 'react';
+import { InputError } from '../components/input-errror';
 
 export function SignIn() {
+  const { isAuthenticated } = useSelector(useAuth);
+  const navigate = useNavigate();
+  const [isError] = useState(true);
+
+  useEffect(() => {
+    if (isAuthenticated) navigate('/home');
+  }, [isAuthenticated]);
+
   return (
     <AuthBase>
       <Auth.Title

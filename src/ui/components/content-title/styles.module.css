@@ -1,0 +1,35 @@
+.contentTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2.2rem;
+}
+
+.contentTitle h1 {
+  font-size: 2.8rem;
+  line-height: 4.2rem;
+}
+
+.contentTitle p {
+  font-size: 1.4rem;
+}
+
+.contentTitleActions {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.contentTitleActions a {
+  width: 19.8rem;
+  text-decoration: none;
+  background: var(--white);
+  color: var(--buttonLinkFG) !important;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+}

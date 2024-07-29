@@ -1,0 +1,25 @@
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1.8rem;
+  margin-top: 3.2rem;
+}
+
+.actions a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #DC0046;
+  width: 12rem;
+}
+
+.actions button {
+  width: 25rem;
+  padding: 1.2rem;
+  border-radius: 0.8rem;
+  background: #089B93;
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 600;
+}

@@ -1,0 +1,11 @@
+.formSection {
+  width: 100%;
+  border-top: 1px solid #D0D5DD;
+  padding: 3.2rem 0;
+}
+
+.formSection h3 {
+  color: #0A7275;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}

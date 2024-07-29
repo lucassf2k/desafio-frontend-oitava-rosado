@@ -1,0 +1,21 @@
+.contentHeaderContainer {
+  background: var(--primaryColor);
+  height: 30rem;
+}
+
+.contentHeader {
+  width: 90%;
+  margin: 0 auto;
+  padding: 5.2rem 0;
+  color: var(--white);
+}
+
+.contentHeader > a {
+  color: var(--white);
+  width: 100%;
+}
+
+.contentHeader > a {
+  font-size: 1rem;
+  font-weight: 700;
+}

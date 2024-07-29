@@ -1,0 +1,26 @@
+.sidebar {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 6.2rem;
+}
+
+.sidebar img {
+  margin-top: 1.2rem;
+}
+
+.sidebarActions {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.sidebarActions button {
+  border: none;
+  background: none;
+}

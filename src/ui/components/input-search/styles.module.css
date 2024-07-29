@@ -1,0 +1,16 @@
+.inputSearch {
+  position: relative;
+}
+ 
+.inputSearch img {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.inputSearch input {
+  padding: 0.8rem;
+  width: 54rem;
+  border-color: #D0D5DD;
+  padding-left: 3rem;
+}

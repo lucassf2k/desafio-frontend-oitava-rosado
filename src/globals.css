@@ -44,7 +44,7 @@ button {
 input {
   border: none;
   outline: none;
-  border: 1px solid var(--lightGreenColor);
+  border: 1px solid #000000;
   border-radius: 0.8rem;
 }
 

@@ -1,0 +1,11 @@
+.tableListContainer {
+  background: var(--white);
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -12rem;
+  height: 100%;
+  padding: 1.8rem;
+  border-radius: 0.8rem;
+  box-shadow: 0px 0px 8px #D0D5DD;
+  max-height: 480px;
+}

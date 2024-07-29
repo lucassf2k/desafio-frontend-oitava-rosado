@@ -1,0 +1,23 @@
+.field{
+  position: relative;
+}
+
+.field label {
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 600;
+  top: -5px;
+  left: 16px;
+  background: var(--white);
+  padding: 0 0.4rem;
+}
+
+.field input {
+  width: 38.8rem;
+  padding: 1.8rem;
+  border: 1px solid #D0D5DD;
+}
+
+.field input:focus {
+  border: 2px solid var(--primaryColor);
+}
