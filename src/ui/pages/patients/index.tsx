@@ -11,10 +11,28 @@ import { Table } from '../../components/table';
 import { InputSearch } from '../../components/input-search';
 
 import S from './styles.module.css';
+import { Loader } from '../../components/loader';
+import { supabase } from '../../../infra/supabase/config';
+import { useEffect, useState } from 'react';
 
 export function Patients() {
+  const [isLoading, setIsLoading] = useState(true);
+  const [patients, setPatients] = useState<any[] | null>([]);
+
+  const loadPatient = async () => {
+    const { data } = await supabase.from('pacientes').select();
+    setPatients(data);
+    setIsLoading(false);
+    console.log(data);
+  };
+
+  useEffect(() => {
+    loadPatient();
+  });
+
   return (
     <Container>
+      <Loader isLoading={isLoading} />
       <Sidebar />
       <ContentContainer>
         <Header.Main>
@@ -47,19 +65,21 @@ export function Patients() {
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>001</td>
-                  <td>Bruna Rodrigues</td>
-                  <td>125.487.458-84</td>
-                  <td>8499604587</td>
-                  <td>Masculino</td>
-                  <td>02/05/1999</td>
-                  <td>-</td>
-                  <td className={S.tableListActions}>
-                    <button>Editar</button>
-                    <button className={S.delete}>Apagar</button>
-                  </td>
-                </tr>
+                {patients?.map((patient) => (
+                  <tr key={patient.id}>
+                    <td>{patient.id}</td>
+                    <td>{patient.nome}</td>
+                    <td>{patient.cpf}</td>
+                    <td>{patient.telefone}</td>
+                    <td>{patient.sexo}</td>
+                    <td>{patient.nascimento}</td>
+                    <td>-</td>
+                    <td className={S.tableListActions}>
+                      <button>Editar</button>
+                      <button className={S.delete}>Apagar</button>
+                    </td>
+                  </tr>
+                ))}
               </tbody>
             </Table.List>
           </Table.Container>

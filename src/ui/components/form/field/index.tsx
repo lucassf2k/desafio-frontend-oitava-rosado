@@ -1,3 +1,4 @@
+import { forwardRef } from 'react';
 import S from './style.module.css';
 
 export interface FieldProps
@@ -5,11 +6,9 @@ export interface FieldProps
   label: string;
 }
 
-export function Field(props: FieldProps) {
-  return (
-    <div className={S.field}>
-      <label>{props.label}</label>
-      <input {...props} />
-    </div>
-  );
-}
+export const Field = forwardRef<HTMLInputElement, FieldProps>((props, ref) => (
+  <div className={S.field}>
+    <label>{props.label}</label>
+    <input ref={ref} {...props} />
+  </div>
+));
