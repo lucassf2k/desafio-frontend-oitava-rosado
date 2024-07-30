@@ -28,7 +28,7 @@ export function Patients() {
 
   useEffect(() => {
     loadPatient();
-  });
+  }, []);
 
   return (
     <Container>
