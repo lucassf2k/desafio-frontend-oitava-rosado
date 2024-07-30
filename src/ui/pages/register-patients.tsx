@@ -1,4 +1,6 @@
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useForm } from 'react-hook-form';
 import { Container } from '../components/container';
 import { ContentContainer } from '../components/content-container';
 import { ContentHeader } from '../components/content-header';
@@ -6,11 +8,8 @@ import { ContentSection } from '../components/content-section';
 import { Header } from '../components/header';
 import { Sidebar } from '../components/sidebar';
 import { Form } from '../components/form';
-
-import productsIcon from '../assets/icons/products.svg';
-import { useForm } from 'react-hook-form';
 import { Loader } from '../components/loader';
-import { useState } from 'react';
+import productsIcon from '../assets/icons/products.svg';
 import { supabase } from '../../infra/supabase/config';
 
 export function RegisterPatients() {

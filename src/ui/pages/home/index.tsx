@@ -3,8 +3,8 @@ import logoSecondaryIMG from '../../assets/images/logo-secondary.png';
 import logoTertiaryIMG from '../../assets/images/logo-tertiary.png';
 import productsIcon from '../../assets/icons/products.svg';
 import cubeIcon from '../../assets/icons/cubo.svg';
-import S from './styles.module.css';
 import { Header } from '../../components/header';
+import S from './styles.module.css';
 
 export function Home() {
   return (

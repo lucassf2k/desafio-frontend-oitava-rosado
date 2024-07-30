@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Container } from '../../components/container';
 import { ContentContainer } from '../../components/content-container';
 import { Header } from '../../components/header';
@@ -5,7 +6,6 @@ import { Sidebar } from '../../components/sidebar';
 import productsIcon from '../../assets/icons/products.svg';
 import { ContentSection } from '../../components/content-section';
 import { ContentHeader } from '../../components/content-header';
-import { Link } from 'react-router-dom';
 import { ContentTitle } from '../../components/content-title';
 import { Table } from '../../components/table';
 import { InputSearch } from '../../components/input-search';

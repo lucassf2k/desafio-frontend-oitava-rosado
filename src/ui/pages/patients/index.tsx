@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Container } from '../../components/container';
 import { ContentContainer } from '../../components/content-container';
 import { Header } from '../../components/header';
@@ -5,15 +7,13 @@ import { Sidebar } from '../../components/sidebar';
 import productsIcon from '../../assets/icons/products.svg';
 import { ContentSection } from '../../components/content-section';
 import { ContentHeader } from '../../components/content-header';
-import { Link } from 'react-router-dom';
 import { ContentTitle } from '../../components/content-title';
 import { Table } from '../../components/table';
 import { InputSearch } from '../../components/input-search';
+import { Loader } from '../../components/loader';
 
 import S from './styles.module.css';
-import { Loader } from '../../components/loader';
 import { supabase } from '../../../infra/supabase/config';
-import { useEffect, useState } from 'react';
 
 export function Patients() {
   const [isLoading, setIsLoading] = useState(true);
